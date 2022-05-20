@@ -10,7 +10,7 @@ a{
     text-decoration: none;
     color: blue;
     font-style: bold;
-}
+}  
 
 .container{
     margin-right: 10%;
@@ -23,12 +23,46 @@ a{
     position: relative;
 }
 
+/*Estilização do menu */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+}
+.menu li a{
+    padding: 2rem 0;
+    color: antiquewhite;
+    border-radius: 1rem;
+}
+.menu li a:hover{
+    background-color: rgba(165, 57, 57, 0.733);
+}
+
+.cabecalho > div a{
+    padding: 2rem 0;
+    border-radius: 1rem;
+    color: antiquewhite;
+}
+
+.cabecalho > div a:hover{
+    background-color: rgba(165, 57, 57, 0.747);
+}
+
 .legenda{
     position: absolute;
+    display: flex;
 }
 
 .legenda-ryan{
-    left: 10%;
+    
 }
 
 .legenda-teenager{
@@ -49,7 +83,7 @@ a{
     width: 10%;
     height: 10%;
     min-width: 200px;
-    padding: 2%;
+    padding: 2%;    
     text-align: center;
 }
 
