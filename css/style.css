@@ -1,3 +1,44 @@
+
+/*
+    ESTILIZANDO O MENU
+*/
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color:#fff;
+    padding: 1rem;
+}
+
+.cabecalho > div a{
+    color: #fff;
+    padding: 2rem 0;
+    border-radius: 5px;
+    
+}
+
+.cabecalho > div a:hover{
+    background-color: chocolate;
+}
+
+
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.menu li a{
+    padding: 2rem 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.menu li a:hover{
+    background-color: brown;
+}
+
 body{
     background-color: rgb(141, 24, 24);
     background-image: linear-gradient(to right, rgb(141, 24, 24), black);
@@ -33,7 +74,7 @@ a{
 
 .legenda-teenager{
     
-
+ 
 }
 
 .legenda-lancamento{
@@ -63,3 +104,10 @@ a{
     background-image: cross-fade(0.5 black);
     font-size: 30px;
 }
+
+
+    
+
+/*
+    ESTILIZANDO O MENU
+*/
