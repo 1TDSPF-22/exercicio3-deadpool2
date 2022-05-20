@@ -8,7 +8,7 @@ body{
 
 a{
     text-decoration: none;
-    color: blue;
+    color: rgb(255, 255, 255);
     font-style: bold;
 }
 
@@ -63,3 +63,29 @@ a{
     background-image: cross-fade(0.5 black);
     font-size: 30px;
 }
+
+/* estilizando o menu */
+
+.cabecalho{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.menu li a{
+    padding: 2rem 1rem;
+}
+
+.menu li a:hover{
+    background-color:red;
+}
+/* estilizando o menu */
