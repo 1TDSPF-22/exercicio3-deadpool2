@@ -19,8 +19,8 @@ a{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 2px;
     box-shadow: 2px 2px 5px black;
-
     padding: 5px 5px 150px 5px;
+    position: relative;
 }
 
 .legenda{
@@ -32,6 +32,7 @@ a{
 }
 
 .legenda-teenager{
+    
 
 }
 
@@ -43,6 +44,19 @@ a{
     display: flex;
     height: 900px;
 }
+
+.box{
+    width: 10%;
+    height: 10%;
+    min-width: 200px;
+    padding: 2%;
+    text-align: center;
+}
+
+.box-lancamento{
+    margin-left: 25%;
+}
+
 
 .rodape{
     padding: 50px 50px 50px 50px;
