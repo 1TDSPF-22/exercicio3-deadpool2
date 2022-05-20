@@ -63,3 +63,43 @@ a{
     background-image: cross-fade(0.5 black);
     font-size: 30px;
 }
+/*
+    ESTILIZANDO O MENU
+*/
+.cabecalho{
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.cabecalho > div  a{
+    padding: 2rem 0;
+    color: #fff;
+    border-radius: ;
+}
+
+.cabecalho > div  a:hover{
+   background-color: chocolate;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.menu li a{
+    padding: 2rem 0;  
+}
+
+.menu li a:hover{
+    background-color: aqua;
+}
+
+/*
+    ESTILIZANDO O MENU
+*/
