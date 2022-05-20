@@ -1,34 +1,47 @@
-body{
-    background-color: rgb(141, 24, 24);
-    background-image: linear-gradient(to right, rgb(141, 24, 24), black);
-    font-family: Verdana, sans-serif;
-    color: aliceblue;
-    background-attachment: fixed;
+/*ESTILIZANDO O MENU */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: #ffff;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a{
-    text-decoration: none;
-    color: blue;
-    font-style: bold;
+.menu li{
+    display: inline;
+    margin-left: 2rem;
 }
 
-.container{
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-block: 10%;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 2px;
-    box-shadow: 2px 2px 5px black;
-    padding: 5px 5px 150px 5px;
-    position: relative;
+.menu li a{
+    padding: 2rem 0;
+    color: #ffff;
+    border-radius: 1rem;
+}
+
+.menu li a:hover{
+    background-color: brown;
+}
+
+.cabecalho > div a{
+    padding: 2rem 0;
+    border-radius: 1rem;
+    color: #ffff;
+}
+
+.cabecalho > div a:hover{
+    background-color:chocolate;
 }
 
 .legenda{
     position: absolute;
+    display: flex;
 }
 
 .legenda-ryan{
-    left: 10%;
+    
 }
 
 .legenda-teenager{
@@ -49,7 +62,7 @@ a{
     width: 10%;
     height: 10%;
     min-width: 200px;
-    padding: 2%;
+    padding: 2%;    
     text-align: center;
 }
 
@@ -57,9 +70,33 @@ a{
     margin-left: 25%;
 }
 
-
 .rodape{
     padding: 50px 50px 50px 50px;
     background-image: cross-fade(0.5 black);
     font-size: 30px;
+}
+
+body{
+    background-color: rgb(141, 24, 24);
+    background-image: linear-gradient(to right, rgb(141, 24, 24), black);
+    font-family: Verdana, sans-serif;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+}  
+
+.container{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-block: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 5px 150px 5px;
+    position: relative;
 }
