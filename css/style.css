@@ -35,22 +35,17 @@
     background-color:chocolate;
 }
 
-.legenda{
-    position: absolute;
-    display: flex;
+#corpo{
+    display: inline-block;
+    position: relative;
 }
 
-.legenda-ryan{
-    
+#corpo.legenda{
+    position: relative;
 }
 
-.legenda-teenager{
-    
-
-}
-
-.legenda-lancamento{
-
+.nomes{
+    font-weight: 600;
 }
 
 .box-pai{
@@ -78,9 +73,9 @@
 
 body{
     background-color: rgb(141, 24, 24);
-    background-image: linear-gradient(to right, rgb(141, 24, 24), black);
+    background-image: linear-gradient(#ff0000 20%,#000000 90%);
     font-family: Verdana, sans-serif;
-    color: aliceblue;
+    color: #ffff;
     background-attachment: fixed;
 }
 
