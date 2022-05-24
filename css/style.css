@@ -1,0 +1,107 @@
+/* ATUALIZAR O EXERCÍCIO USANDO FLEXBOX */
+body{
+    background-color: rgb(141, 24, 24);
+    background-image: linear-gradient(to right, rgb(141, 24, 24), black);
+    font-family: Verdana, sans-serif;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+}
+
+.container{
+    margin: 0 10%;
+    margin-block: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+.legenda{
+    position: absolute;
+}
+
+.box-ryan > p{
+    margin-right: 78%;
+}
+
+.box-teenager > p{
+    margin-right: 27%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.box-pai{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* width: 10%;
+    height: 10%; */
+    /* min-width: 200px; */
+    /* padding: 2%; */
+    text-align: center;
+}
+
+.box-lancamento{
+    /* margin-left: 25%; */
+} 
+
+p{
+
+}
+
+.rodape{
+    padding: 50px;
+    background-image: cross-fade(0.5 black);
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+/* ESTILIZANDO MENU */
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cabecalho > div  a{
+    padding: 2rem 0;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.cabecalho > div a:hover{
+   background-color: chocolate;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.menu li a{
+    padding: 1rem 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.menu li a:hover{
+    padding: 2rem 0;
+    background-color: brown;
+}
