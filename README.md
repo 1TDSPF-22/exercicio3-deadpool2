@@ -56,7 +56,7 @@ Para o rodapé nós vamos ter a mensagem padrão de Copyrights e uma indicação
 
 ● Para a classe container determine os seguintes estilos:
 | Margem esquerda e direita com 10%  e bloco.
-| Adicionar uma borda de espessura de 2px que seja sólida e de cor  preta.
+| Adicionar uma borda de espessura de 2px que seja sólida e de cor preta.
 | Colocar sombra na borda de: 2px de movimentação horizontal, 2px de vertical e 5px de espalhamento e de cor preta.
 | Aplique um controle de borda para que a imagem não vaze do quadro. 
 | Coloque um espaçamento interno de: 5px 5px 150px 5px;
