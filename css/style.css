@@ -35,19 +35,6 @@
     background-color:chocolate;
 }
 
-#corpo{
-    display: inline-block;
-    position: relative;
-}
-
-#corpo.legenda{
-    position: relative;
-}
-
-.nomes{
-    font-weight: 600;
-}
-
 .box-pai{
     display: flex;
     height: 900px;
@@ -86,7 +73,7 @@ a{
 }  
 
 .container{
-    margin-right: 10%;
+    margin-right: 20%;
     margin-left: 10%;
     margin-block: 10%;
     border: 2px solid rgb(0, 0, 0);
@@ -94,4 +81,34 @@ a{
     box-shadow: 2px 2px 5px black;
     padding: 5px 5px 150px 5px;
     position: relative;
+}
+
+.legenda-ryan{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    position: relative;
+}
+
+.legenda-teenager{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    margin-left: 14%;
+    position: relative;
+}
+
+.legenda-lancamento{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.nomes{
+    font-weight: 600;
+    font-style: bold;
+    color: #ffff00;
+    text-shadow: -1px 0 black, 0 1px black;
 }
