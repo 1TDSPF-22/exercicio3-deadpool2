@@ -58,7 +58,7 @@ Para o rodapé nós vamos ter a mensagem padrão de Copyrights e uma indicação
 | Margem esquerda e direita com 10%  e bloco.
 | Adicionar uma borda de espessura de 2px que seja sólida e de cor  preta.
 | Colocar sombra na borda de: 2px de movimentação horizontal, 2px de vertical e 5px de espalhamento e de cor preta.
-| Aplique um controle de borda para que a imagem na vaze do quadro. 
+| Aplique um controle de borda para que a imagem na vaze do quadro.
 | Coloque um espaçamento interno de: 5px 5px 150px 5px;
 | Determine a posição do elemento como relativa.
 

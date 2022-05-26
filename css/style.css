@@ -23,42 +23,43 @@ a{
     position: relative;
 }
 
-.legenda{
-    position: absolute;
-}
+/* .box{
+    width: 10%;
+    height: 10%;
+    min-width: 200px;
+    padding: 2%;
+    text-align: center;
+} */
 
-.box-ryan > p{
-    margin-right: 78%;
-}
-
-.box-teenager > p{
-    margin-right: 27%;
-}
-
-span{
-    font-weight: bold;
-}
-
-.box-pai{
+.corpo{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.box{
-    /* width: 10%;
-    height: 10%; */
-    /* min-width: 200px; */
-    /* padding: 2%; */
-    text-align: center;
+.legenda{
+    position: absolute;
 }
 
-.box-lancamento{
-    /* margin-left: 25%; */
-} 
+.legenda-ryan{
+    width: 20%;
+}
 
-p{
+.legenda-teenager{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+}
 
+.legenda-lancamento{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+span{
+    font-weight: bold;
 }
 
 .rodape{
@@ -104,4 +105,38 @@ p{
 .menu li a:hover{
     padding: 2rem 0;
     background-color: brown;
+}
+
+.rodape > a{
+  position: relative;
+  bottom: 50%;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1100px){
+    .box-teenager, .box-lancamento {
+        margin-bottom: 80px;
+    }
+
+    .box-ryan{
+        margin-bottom: 120px;
+    }
+
+    .legenda-ryan{
+        width: 30%;
+    }
+
+    .legenda-teenager{
+        width: 85%;
+    }
+    .legenda-lancamento{
+        width: 40%;
+    }
+}
+
+@media (max-width: 930px){
+    .legenda-ryan{
+        width: 30%;
+    }
 }
